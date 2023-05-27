@@ -6,3 +6,8 @@ function onClickTest() {
 	alert("Clicked button:Test"+"\n"+"cnt="+cnt);
 	return false;
 }
+function onClickTest2() {
+	
+	alert("cnt in 16x= "+cnt.toString(16));
+	return false;
+}
